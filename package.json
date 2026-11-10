@@ -1,0 +1,14 @@
+{
+  "name": "fluxa-zap-ponte",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Ponte WhatsApp por QR code para o Fluxa CRM. Roda fora do Cloudflare, numa máquina ligada.",
+  "scripts": {
+    "start": "node ponte.mjs",
+    "mock": "node ponte.mjs --mock"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc14"
+  }
+}
